@@ -98,6 +98,18 @@ export const en: Messages = {
       subhead: "Pre-register for free. Launch updates and early access—no spam.",
       button: "Pre-register",
     },
+    features: {
+      eyebrow: "Platform features",
+      title: "Learn, practice, and see your progress",
+      reflectionsTitle: "Reflections",
+      reflectionsCopy: "Write notes about your learning. The system analyzes them and shows progress over time with clear graphs.",
+      testsTitle: "Tests & assignments",
+      testsCopy: "Interactive tests with instant verification and helpful hints so you learn as you go.",
+      progressTitle: "Progress & analytics",
+      progressCopy: "Charts and insights on your knowledge, gaps, and achievements—so you know where you stand.",
+      interfaceTitle: "Clean, modern interface",
+      interfaceCopy: "A simple, inspiring design. Easy to use so you can focus on learning.",
+    },
   },
   howItWorks: {
     title: "How it works",

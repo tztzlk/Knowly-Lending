@@ -1,6 +1,7 @@
 import { LandingHero } from "@/components/landing/LandingHero";
 import { LandingProblem } from "@/components/landing/LandingProblem";
 import { LandingSteps } from "@/components/landing/LandingSteps";
+import { LandingFeatures } from "@/components/landing/LandingFeatures";
 import { LandingValue } from "@/components/landing/LandingValue";
 import { PricingSection } from "@/components/landing/PricingSection";
 import { LandingCredibility } from "@/components/landing/LandingCredibility";
@@ -13,6 +14,7 @@ export default function HomePage() {
       <LandingHero />
       <LandingProblem />
       <LandingSteps />
+      <LandingFeatures />
       <LandingValue />
       <PricingSection />
       <LandingCredibility />

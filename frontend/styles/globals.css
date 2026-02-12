@@ -58,6 +58,27 @@ html {
   transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
+/* Landing feature chart animations */
+@keyframes draw-line {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motion-safe\:animate-fill-bars,
+  .motion-safe\:animate-fade-in {
+    animation: none;
+  }
+  [style*="draw-line"] {
+    animation: none !important;
+    stroke-dashoffset: 0;
+  }
+}
+
 /* Subtle motion - reduce for prefers-reduced-motion */
 @media (prefers-reduced-motion: reduce) {
   html {

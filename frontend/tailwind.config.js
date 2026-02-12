@@ -104,9 +104,29 @@ export default {
           "0%": { opacity: "0", transform: "translateY(8px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
+        "draw-line": {
+          "0%": { strokeDashoffset: "1" },
+          "100%": { strokeDashoffset: "0" },
+        },
+        "fill-bars": {
+          "0%": { transform: "scaleY(0)" },
+          "100%": { transform: "scaleY(1)" },
+        },
+        "pulse-soft": {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.85" },
+        },
+        "float": {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-6px)" },
+        },
       },
       animation: {
         "fade-in": "fade-in 0.4s ease-out forwards",
+        "draw-line": "draw-line 1.2s ease-out forwards",
+        "fill-bars": "fill-bars 0.8s ease-out forwards",
+        "pulse-soft": "pulse-soft 2s ease-in-out infinite",
+        "float": "float 4s ease-in-out infinite",
       },
     },
   },
